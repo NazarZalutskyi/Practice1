@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Internet Shop</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<meta name="description" content="Shop, buy, goods">
+<meta name="keywords" content="Online shop, buy goods">
+<meta name="author" content ="Nazar Zalutskyi">
+<meta charset="UTF-8">
+</head>
+<body>
+    <! -- it is our main panel, inside of which all elements are contained -->
+  <div class="mainWindow">
+      <! -- this panel is for for selling goods to consumer-->
+     <div class="sellPanel">
+          <!-- it's area of form and "add" button-->
+         <div class="form_add_area">
+         <input id="goods_name_form" type="text" name="goods_name" value="Назва товару">
+         <button class="add_button" type="button">Додати</button>
+         </div>  
+         <!-- the area with first good-->
+         <div class="goods_section">
+             <div class="name_of_good">
+                 Помідори
+             </div>      
+             <div class="decrease_button">-</div>
+             <div class="number_of_goods">1</div> 
+             <div class="increase_button">+</div>
+             <div class="button_bought"><button id="bought" type="button">Куплено</button></div>
+             <div class="button_delete"><button id="delete" tupe="button">х</button></div>
+             </div>
+          <div class="goods_section">
+             <div class="name_of_good">
+                 Печиво
+             </div>      
+             <div class="decrease_button">-</div>
+             <div class="number_of_goods">1</div> 
+             <div class="increase_button">+</div>
+             <div class="button_bought"><button id="bought" type="button">Куплено</button></div>
+             <div class="button_delete"><button id="delete" tupe="button">х</button></div>
+             </div>
+         <div class="goods_section cheese">
+             <div class="name_of_good">
+                 Сир
+             </div>      
+             <div class="decrease_button">-</div>
+             <div class="number_of_goods">1</div> 
+             <div class="increase_button">+</div>
+             <div class="button_bought"><button id="bought" type="button">Куплено</button></div>
+             <div class="button_delete"><button id="delete" tupe="button">х</button></div>
+             </div>
+        </div>
+      <! --this panel is to see all the goods you've bought-->
+     <div class="boughtPanel">
+         <div class="goods_left"><p>Залишилося</p></div>
+         <div class="bought_goods">
+             <div class="number_of_bought">
+                 Помідори
+                 <div class="number_of_each_goods">1</div>
+             </div>
+              <div class="number_of_bought cakes">
+                 Печиво
+                 <div class="number_of_each_goods">1</div>
+             </div>
+              <div class="number_of_bought _cheese" >
+                 Сир
+                 <div class="number_of_each_goods">1</div>
+             </div>
+         </div>
+          <div class="goods_left_2"><p>Куплено</p></div>
+          <div class="empty_bar"></div>
+     </div>  
+  </div>
+</body>
+</html>
