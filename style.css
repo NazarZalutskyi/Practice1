@@ -1,272 +1,273 @@
-*{
- background-color: #DAD6D6;   
+body {
+	background-color: #DADADA;
 }
-.sellPanel{
-    width:58%;
-    height:200px;
-    border-radius:3px;
-    margin-left:100px;
-    margin-top:100px;
-    box-shadow: 5px 17px 5px #888888;
-    float:left;
-    background-color:white;
-        
+
+h3{
+	margin: 6px;
 }
-.boughtPanel{
-    width: 25%;
-    height: 33%;
-    border-radius: 3px;
-    border-left: 1px;
-    border-right: 1px;
-    border-bottom: 1px;
-    margin-top: 100px;
-    margin-left:15px;
-    float:left;
-    background-color:#eee;
-    box-shadow: 7px 7px 5px #888888;
-   
+
+/*class for button*/
+button{	
+    box-shadow: 0 -3px 0 0 rgba(34,36,38,.15) inset;
+    border: 1px solid rgba(34,36,38,.15);
+	padding: 7px 11px 8.5px;
+	font-size: 10px; 
+    outline: none;
 }
-.form_add_area{
-    width:100%;
-    height:30%;    
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #DAD6D6;
-    border-top: 1px;
-    border-right:1px;
-    border-left:1px;
-    background-color: white;
+
+
+/*class for green-button*/
+button.green-button{
+	border-radius: 50%;
+	background-color: #10B20E;
+	color: #fff;
 }
-#goods_name_form{
-    width: 80%;
-    height:60%;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    border-style: solid;
-    border-width:1px;
-    margin: 12px;
-    margin-right:0px;
-    color: #DAD6D6;
-    background-color: white;
-    padding-left: 10px;
-    float: left;   
-    box-shadow:1px #DAD6D6;
-    font-size: 14px;
-    font-family:calibri, verdana, sans-serif;
+button.green-button:hover{
+    background-color: #208919;
 }
-.add_button{
-    width: 130px;
-    height: 37px;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-    background: #3656C9;
-    border-style: none;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    font-family:calibri, verdana, sans-serif;
-    text-decoration: none;
-    box-shadow: 0 -3px #122A80 inset;
-    transition: 0.2s;  
-    margin-left:0px;
-    margin-top:12px;
+
+/*class for red-button*/
+button.red-button{
+    width:7%;
+	border-radius: 50%;
+	background-color: #D60F0F;
+	color: #fff;
 }
-.goods_section{
-    width: 100%;
-    height: 25%;
-    background-color: white;
-    border-style: solid;
-    border-width:1px;
-    border-color: #DAD6D6;
-    border-top:1px;
-    border-left:1px;
-    border-right:1px;
-    border-width: 1px;
-    box-shadow:1px #DAD6D6;
+button.red-button:hover{
+    background-color: #9C0C0C;
 }
-.cheese{
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-.name_of_good{
-    width:30%;
-    height:60%;
-    margin-left: 10px;
-    margin-top: 16px;
-    background-color: white;
-    float: left;
-}
-.decrease_button{
-    width:40px;
-    height:40px;
-    border-radius:50%;
-    margin-top:5px;
-    color:white;
-    text-align: center;
-    float:left;
-    background-color:#E5ACAC;
-    font-size: 30px;    
-    font-family:calibri, verdana, sans-serif;
-}
-.number_of_goods{
-    width: 35px;
-    min-height:25px;
-    border-radius: 6px;
-    background-color: #E5E4E4;
-    float: left;
-    text-align:center;
-    margin-top: 8px;
-    margin-left: 10px;
-    padding-top: 10px;
-}
-.increase_button{
-    width:40px;
-    height:30px;
-    border-radius:50%;
-    box-shadow: 0px 3px #15A61A;
-    margin-top:5px;
-    margin-left: 8px;
-    padding-top:10px;
-    color:white;
-    text-align: center;
-    float:left;
-    background-color:limegreen;
-    font-size: 20px;
-    font-weight:bold;   
-    font-family:calibri, verdana, sans-serif;
-}
-.button_bought{
-    width: 250px;
-    height: 40px;
-    background-color: white;
-    float:left;
-}
-#bought{
-    width: 100px;
-    height: 35px;
+/*class for delete button*/
+button.delete{
+	background-color: #ca1010;
+	color: #fff;
     border-radius: 5px;
-    border-style: none;
-    border-style:solid;
-    border-width: 1px;
-    border-color: #DAD6D6;
-    background-color: #EDEEED;
-    box-shadow: 0px 3px #B2B3B2;
-    margin-top: 8px;
-    margin-left: 250px;
+    margin-left: 5%;
 }
-.button_delete{
-    width:50px;
-    height:30px;
-    margin-left:100px;
-    float:left;
-    background-color: white;
+button.delete:hover{
+    background-color: #870606;
 }
-#delete{
-    width: 35px;
-    height: 35px;
-    border-radius: 6px;
-    background-color: #DC1010;
-    box-shadow: 0px 3px #7E090D;
-    border-style:none;
-    text-align:center;
-    margin-top: 8px;
-    margin-left:5px;
-    padding-top:2px;
-    color:white;
-    font-weight: bold;
-    font-family:calibri, verdana, sans-serif;
-    float:left;
+/*class for delete button*/
+.delete{
+	margin-left: 2px;	
 }
-.goods_left{
-    width:100%;
-    height:25%;
-    background-color: white;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #DAD6D6;
-    border-top:1px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    background-color: white;
-    padding-top: 5px;
+button.bought{
+    border-radius: 5px;
+}
+button.bought:hover{
+    background-color:#BAB5B5;
+}
+
+button.unbuy{
+    border-radius: 5px;
+}
+button.unbuy:hover{
+    background-color:#BAB5B5; 
     
 }
-.goods_left p{
-    margin-left:10px;
-    margin-top:10px;
-    background-color: white;
-    font-weight:bold;
-    font-size: 20px;
-    font-family:calibri, verdana, sans-serif;
+
+/*class for all page*/
+.page {
+	padding: 8%;
+    
 }
-.bought_goods{
-    width:100%;
-    height:25%;
-    background-color: white;
-    border-style:solid;
+
+
+
+/*class for putting elements in one*/
+.inline {
+	display: inline-block;
+    
+}
+
+/*class for main box*/
+.main-box{
+	width: 60%;
+	float: left;
+	padding-right: 1%;  
+}
+
+/*class for second box*/
+.second-box{
+	width: 28%;
+	padding-left: 1%;
+    
+}
+
+/*class for part of list*/
+.part{
+	padding: 10px;
+    width:97%;
+	background-color: #FFF;
+    border-style: solid;
     border-width: 1px;
-    border-top: 1px;
-    border-color: #DAD6D6;
-    float:left;
+    border-color: #B3B3B6;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
 }
-.number_of_bought{
-    width:32%;
-    height:43%;
-    background-color: #E7E8E7;
-    border-radius:5px;
-    margin-left:10px; 
-    margin-top: 10px;
-    float:left;
-    font-size: 12px;
-    padding-left: 5px;
-    padding-top:10px;
+
+/*class for container border*/
+.container{
+	width: 100%;
+	
 }
-.number_of_each_goods{
-    width: 15px;
-    height:15px;
-    float:right;
-    margin-right: 10px;
-    margin-top: :10px;
-    background-color: #F68D2B;
-    border-radius: 50%;
-    font-size: 12px;
-    font-family:calibri, verdana, sans-serif;
-    color: white;
-    text-align: center;
+
+/*class for list of products*/
+.list{
+	display: inline-flex;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+    margin-top:-1px;
+    margin-right:10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B3B3B6;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    
+    
 }
-.cakes{
-    width: 25%;
+
+/*class for no border of form*/
+.container.no-border{
+	border: none;
+    
 }
-._cheese{
-    width: 20%;
-}
-.goods_left_2{
+
+
+/*class for input form*/
+input{
     width: 100%;
-    height:25%;
-    background-color: white;
-    border-style:solid;
+	border-radius: 5px;
+    box-shadow:none;
+    padding: 9px 14px;
+    outline:none;
+    border-style: solid;
     border-width: 1px;
-    border-top: 1px;
     border-color: #DAD6D6;
-    float:left;
 }
-.goods_left_2 p{
-    background-color: white;
-    font-size: 20px;
-    font-family:calibri, verdana, sans-serif;
-    margin-left:10px;
-    margin-top:10px;
-    font-weight:bold;
+
+
+
+/*class for add button*/
+.add-button{
+	float: right;
+	border: 1px solid rgba(34,36,38,.15);
+    padding: 12px 50px;
+	background-color: #2185D0;
+	color: #fff;
+    font-weight: bold;	
 }
-.empty_bar{
-    width:100%;
-    height: 147px;
-    background-color: white;
-    border-bottom-left-radius: 5px;
+.add-button:hover{
+    background-color: #090E9E;
+}
+
+button.add-button{
+    border: 1px;
+    border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+/*class for item name*/
+.name{
+    display: block;
+    overflow: hidden;
+}
+
+
+.item-name-field{
+   
     border-style:solid;
     border-width:1px;
-    border-color: #DAD6D6;     
+    border-color:#B3B3B6;
 }
+
+
+/*class for text of number*/
+.label{
+	margin: 2px;
+    height:60%;
+	border: 0 solid transparent;
+	padding: 9px;
+	background-color: #E8E8E8;
+	font-size: 12px;
+	display: inline-block;
+    border-radius: 5px;
+    text-align:center;
+
+}
+
+
+.product{
+	float: left;
+	margin: auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*class for product-name*/
+.product-name{
+	width: 25%;
+	align-items: left;
+	justify-content: left;
+	padding-left: 10px;
+}
+
+
+/*class for green and red buttons*/
+.green-red-buttons{
+	width: 80%;
+	align-content: center;
+
+}
+
+
+/*class for bought and delete buttons*/
+.buy-del-buttons{
+	width: 30% ;
+	align-content: right;
+}
+
+
+
+/*class for unbuy buttons*/
+.unbuy-buttons{
+	width: 75%;
+	align-content: right;
+}
+
+
+/*class for mark with number in second-box*/
+.mark{
+	border-radius: 50%;
+	background-color: #F2711C;
+	border-color: #F2711C;
+	color: #FFF;
+	padding: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 4px;
+    
+}
+
+
+/*class which makes text crossed*/
+.strike {
+	text-decoration: line-through;
+}
+
+
+/*class for hiding buttons*/
+.hidden {
+	display: none;
+}
+.buy{
+    border-radius:opx;
+}
+
+
+
+
